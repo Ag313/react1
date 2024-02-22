@@ -8,6 +8,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello, Aman and Tarun
+          <form>
+            <label>USERNAME : </label><input type='text'/>
+            <label>PASSWORD : </label><input type='password'/>
+            <button type="submit">Submit</button>
+          </form>
         </p>
         <a
           className="App-link"
